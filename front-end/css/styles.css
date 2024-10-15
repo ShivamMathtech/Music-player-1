@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+}
+.sidebar {
+  height: 100vh;
+  width: 300px;
+  /* background-color: #0d182a; */
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contentbar {
+  height: 100vh;
+  width: calc(100vw - 300px);
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow-y: scroll;
+}
+.recommended-music {
+  overflow: hidden;
+  height: 330px;
+}
+.music-content {
+  height: 50px;
+}
+.song-img {
+  height: 50px;
+  width: 50px;
+
+  background-image: url("img/s2.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.list-group-item {
+  border: 0px;
+  background-color: transparent;
+  border-top: 1px solid #ddd;
+  border-radius: 0;
+  color: #fff;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.list-group-item:hover {
+  background-color: rgba(23, 35, 59);
+}
+.btn-1 {
+  border-radius: 20px;
+}
+header {
+  height: 100px;
+}
+.user-img {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  background-image: url("img/user.png");
+  background-size: cover;
+  border-radius: 50px;
+}
+.album {
+  height: 250px;
+}
+.roundbtn-1 {
+  border-radius: 30px;
+}
+input[type="text"] {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+input[type="text"]::placeholder {
+  color: white;
+}
+input[type="text"]:focus {
+  background-color: transparent;
+  box-shadow: none;
+}
+#basic-addon2 {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+}
+.album-img {
+  height: 150px;
+  width: 140px;
+  background-image: url("img/blackwater.jfif");
+  background-size: contain;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+.artist-img {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 100px;
+  background-image: url("img/gaga.jfif");
+  background-size: cover;
+}
+footer {
+  height: 60px;
+  background-color: #0a0f25;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.bar {
+  width: 100%;
+  height: 5px;
+  background-color: #888;
+}
+.overlay {
+  width: 75%;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.a-img-1 {
+  background-image: url("img/broun.jfif");
+  background-size: cover;
+}
+.a-img-2 {
+  background-image: url("img/byence.jfif");
+  background-size: cover;
+}
+.a-img-3 {
+  background-image: url("img/lipa.jfif");
+  background-size: cover;
+}
+.a-img-4 {
+  background-image: url("img/uv.jfif");
+  background-size: cover;
+}
+.a-img-5 {
+  background-image: url("img/broun.jfif");
+  background-size: cover;
+}
